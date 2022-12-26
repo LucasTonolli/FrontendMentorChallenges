@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../assets/fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('../assets/fonts/Montserrat-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../assets/fonts/Montserrat-Medium.woff2') format('woff2'),
+        url('../assets/fonts/Montserrat-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fraunces 72pt';
+    src: url('../assets/fonts/Fraunces72pt-Bold.woff2') format('woff2'),
+        url('../assets/fonts/Fraunces72pt-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-style: normal;
+}
+
+.bold-font{
+    font-weight: bold;
+}
+
+.fraunces-font{
+    font-family: 'Fraunces 72pt';
+    font-weight: bold;
+    font-style: normal;
+}
