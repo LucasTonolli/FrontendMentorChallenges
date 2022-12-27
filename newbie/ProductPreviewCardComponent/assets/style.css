@@ -91,7 +91,7 @@ main {
     text-align: center;
 }
 
-@media (max-width:375px){
+@media (max-width:48em){
     .product-preview{
         flex-direction: row;
         justify-content: center;
