@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](images/solution.jpg)
+![](images/solution-v2.jpg)
 ![](images/solution-mobile.jpg)
 
 ### Links
