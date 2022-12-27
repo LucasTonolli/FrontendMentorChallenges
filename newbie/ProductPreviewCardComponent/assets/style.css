@@ -8,8 +8,11 @@ body {
     font-size: 14px;
 }
 
-main {
-    margin: 90px auto;
+.container {
+    padding: 120px 0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*Generic Classes*/
