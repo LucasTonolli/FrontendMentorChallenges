@@ -59,6 +59,7 @@ body {
     padding-right: 30px;
     color: hsl(212, 21%, 14%);
     font-size: 2.3em;
+    line-height: 30px;
 }
 
 .product-description {
