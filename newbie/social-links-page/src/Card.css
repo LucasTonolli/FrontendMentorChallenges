@@ -1,0 +1,86 @@
+:root {
+  --Grey: hsl(0, 0%, 20%);
+  --Dark-Grey: hsl(0, 0%, 12%);
+  --Off-Black: hsl(0, 0%, 8%);
+  --Green: hsl(75, 94%, 57%);
+  --White: hsl(0, 0%, 100%);
+}
+
+.card {
+  border-radius: 12px;
+  background-color: var(--Dark-Grey);
+  padding: 1.5em;
+  width: 80vw;
+  margin: 3em auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card img {
+  border-radius: 99px;
+  width: 5em;
+  height: 5em;
+  object-fit: cover;
+}
+
+.text-white {
+  color: var(--White);
+}
+
+.text-green {
+  color: var(--Green);
+}
+.card h1 {
+  font-size: 1.6em;
+  margin: 1em 0 0;
+}
+.card h2 {
+  font-size: 0.9em;
+}
+
+.card p {
+  font-size: 0.9em;
+}
+
+.card .container-links {
+  width: 100%;
+}
+
+.card .container-links a {
+  width: 100%;
+  background-color: var(--Grey);
+  border-radius: 8px;
+  display: block;
+  text-decoration: none;
+  padding: 1em 0;
+  text-align: center;
+  margin: 1.2em 0;
+  font-size: 1em;
+}
+
+.card .container-links a:hover {
+  cursor: pointer;
+  background-color: var(--Green);
+  color: var(--Off-Black);
+	transition: .3s;
+}
+
+.card .container-links a:last-child {
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: 40vw;
+    margin: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card {
+    width: 25vw;
+    margin: 0;
+    padding: 2em;
+  }
+}
